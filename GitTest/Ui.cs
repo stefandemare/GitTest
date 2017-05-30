@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace GitTest
 {
-    class Program
+    class Ui
     {
-        static void Main(string[] args)
+        public void Hello()
         {
-            var ui = new Ui();
-            ui.Hello();
+            Console.WriteLine("Hello Git");
         }
     }
 }
